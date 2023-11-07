@@ -44,6 +44,83 @@ class Welcome
         $this->secondNumber =20;
         $this->result      = 30;
 
+        //Conditional statement
+        //Conditional
+        //1.if
+        //2.if else
+        //3.if else if
+        //4.switch
+        //Repeated
+        //1.for
+        //2.while
+        //3.do while
+
+        $this->top = $this->firstNumber + $this->secondNumber;
+
+
+
+        //if
+//        if($this->firstNumber < $this->secondNumber)
+//        {
+//            echo $this->top;
+//        }
+//        else{
+//            echo "Hello World";
+//        }
+
+
+        //elseif
+//        if($this->firstNumber > $this->secondNumber)
+//        {
+//            echo "Hello world";
+//        }
+//        elseif($this->secondNumber > $this->result)
+//        {
+//            echo "Hello Bangladesh";
+//        }
+//        elseif($this->result < $this->firstNumber)//output
+//        {
+//            echo "Hello PHP";
+//        }
+//        else{
+//            echo "Hello Laravel";
+//        }
+
+
+
+
+        //switch
+        switch($this->firstNumber)
+        {
+            case 10:
+                echo "Hello world";
+                break;
+            case 20:
+                echo "Hello Bangladesh";
+                break;
+            case 30:
+                echo "Hello Dhaka";
+                break;
+            default:
+                echo "Hello BITM";
+                break;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         //nor operator
