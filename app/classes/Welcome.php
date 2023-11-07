@@ -54,6 +54,7 @@ class Welcome
         //1.for
         //2.while
         //3.do while
+        //4.for each
 
         $this->top = $this->firstNumber + $this->secondNumber;
 
